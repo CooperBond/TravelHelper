@@ -1,0 +1,26 @@
+Classes:
+1)car = 'drive car vehicle rv jeep sport engine fuel gas truck wheel wheels bumper seats driving'
+2)bus = 'bus tourist exhibitions excursions popular guide people'
+3)bicycle = 'bicycle bicycles brakes caravan jump eco ecological'
+4)family = 'family kids husband wife girlfriend'
+5)friends = 'friend friends party parties fun alcohol trash extrovert'
+6)only one = 'i me introvert quiet only'
+7)high budget = 'expensive luxury vip lot huge big high'
+8)middle_budget = 'middle usual average'
+9)low_budget = 'low economy cheap cost free'
+10)hot_weather = 'hot sun beach sea water desert sunny light summer'
+11)cold_weather = 'cold winter ice snow snowy icy mount mounts'
+12)normal_weather = 'normal usual temperature climate wind'
+13)architecture = 'architecture architect building buildings house houses famous' + museums museum art
+14)nature = 'nature landscape sunrise sundown star stars forest forests river rivers hiking camp camping'
+15)extreme = 'war pirates robbery rob weapon knife kill police gangsta'
+16)business = 'business work job meeting conference team head department firm office'
+--------------------------------------------------------------------------------------------------------
+It means I need to do 16 neural networks with input size (dimension_dict x 2) and
+teach them only found exact sign. Output is a probability of each class.
+List of probability is a new input to the next huge neural network. 16 dimensions.
+
+Block 1: Type of moving: 1, 2, 3
+Block 2: Company: 4, 5, 6
+Block 3: Budget: 7 ,8 ,9
+Block 4: Weather: 10, 11 ,12
